@@ -1,0 +1,23 @@
+{
+  "page": 1,
+  "page_size": 100,
+  "has_more_pages": false,
+  "reporting_year": 2025,
+  "reporting_quarter": 1,
+  "stocks": [
+    {
+      "stock": {"id": "aapl", "ticker": "AAPL", "name": "Apple Inc.", "active": true},
+      "current": 4159,
+      "previous": 3899,
+      "change": 260,
+      "change_percent": 6.67
+    },
+    {
+      "stock": {"id": "msft", "ticker": "MSFT", "name": "Microsoft Corp", "active": true},
+      "current": 4032,
+      "previous": 3821,
+      "change": 211,
+      "change_percent": 5.52
+    }
+  ]
+}

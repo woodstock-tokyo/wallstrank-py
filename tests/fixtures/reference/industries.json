@@ -1,0 +1,7 @@
+{
+  "industries": [
+    {"id": "advertising-agencies", "name": "Advertising Agencies", "sector_id": "communication-services"},
+    {"id": "aerospace-defense", "name": "Aerospace & Defense", "sector_id": "industrials"},
+    {"id": "agricultural-inputs", "name": "Agricultural Inputs", "sector_id": "materials"}
+  ]
+}

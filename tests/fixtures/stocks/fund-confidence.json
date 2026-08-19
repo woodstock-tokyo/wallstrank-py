@@ -1,0 +1,81 @@
+{
+  "insights": [
+    {
+      "id": "funds-holding",
+      "type": "change",
+      "title": "Funds Holding the Stock",
+      "year": 2025,
+      "quarter": 1,
+      "current_value": 4159,
+      "previous_value": 3899,
+      "change_percent": 6.67,
+      "sentiment": "positive"
+    },
+    {
+      "id": "funds-ownership",
+      "type": "change",
+      "title": "Funds Ownership",
+      "year": 2025,
+      "quarter": 1,
+      "current_value": 63.01,
+      "previous_value": 66.04,
+      "change_percent": -3.03,
+      "sentiment": "negative"
+    },
+    {
+      "id": "funds-holding-in-top-10",
+      "type": "change",
+      "title": "Funds Holding in Top 10",
+      "year": 2025,
+      "quarter": 1,
+      "current_value": 1477,
+      "previous_value": 1048,
+      "change_percent": 40.94,
+      "sentiment": "positive"
+    },
+    {
+      "id": "capital-invested",
+      "type": "change",
+      "title": "Capital Invested by Funds",
+      "year": 2025,
+      "quarter": 1,
+      "current_value": 1413900616111,
+      "previous_value": 807896158237,
+      "change_percent": 75.01,
+      "sentiment": "positive"
+    },
+    {
+      "id": "net-new-positions",
+      "type": "net",
+      "title": "Net New Investments by Funds",
+      "year": 2025,
+      "quarter": 1,
+      "new_positions": 451,
+      "closed_positions": 191,
+      "net_percent": 136.13,
+      "sentiment": "positive"
+    },
+    {
+      "id": "net-increased-positions",
+      "type": "net",
+      "title": "Net Increased Positions by Funds",
+      "year": 2025,
+      "quarter": 1,
+      "increased_positions": 1575,
+      "reduced_positions": 1918,
+      "net_percent": -17.88,
+      "sentiment": "negative"
+    },
+    {
+      "id": "net-calls",
+      "type": "net",
+      "title": "Net Call Options by Funds",
+      "year": 2025,
+      "quarter": 1,
+      "calls_value": 120124623000,
+      "puts_value": 126155337000,
+      "net_percent": -4.78,
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+name: Version tag
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - pyproject.toml
+      - .github/workflows/version.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: version-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  tagging:
+    name: Push v<version> tag when pyproject.toml changes
+    runs-on: ubuntu-latest
+    steps:
+      # Use a GitHub App token so that the pushed tag can trigger downstream
+      # workflows (release.yml). The default GITHUB_TOKEN cannot trigger other
+      # workflow runs.
+      - name: Generate GitHub App token
+        id: generate_token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ steps.generate_token.outputs.token }}
+          fetch-depth: 0
+
+      - name: Read version from pyproject.toml
+        id: get_version
+        uses: mikefarah/yq@master
+        with:
+          cmd: yq -p toml -oy '.project.version' pyproject.toml
+
+      - name: Create and push tag
+        env:
+          TAG_NAME: v${{ steps.get_version.outputs.result }}
+        run: |
+          set -euo pipefail
+          echo "Resolved tag: ${TAG_NAME}"
+          if [ -z "${TAG_NAME#v}" ]; then
+            echo "::error::Could not read project.version from pyproject.toml"
+            exit 1
+          fi
+          if git rev-parse -q --verify "refs/tags/${TAG_NAME}" >/dev/null; then
+            echo "Tag ${TAG_NAME} already exists locally — nothing to do."
+            exit 0
+          fi
+          if git ls-remote --tags origin "${TAG_NAME}" | grep -q "${TAG_NAME}"; then
+            echo "Tag ${TAG_NAME} already exists on origin — nothing to do."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "${TAG_NAME}" -m "Release ${TAG_NAME}"
+          git push origin "${TAG_NAME}"

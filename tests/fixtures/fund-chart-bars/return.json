@@ -1,0 +1,41 @@
+{
+  "1-month": [
+    {"date": "2025-03-03", "percent": 1.02, "spx_percent": 0.85},
+    {"date": "2025-03-31", "percent": -2.6, "spx_percent": -4.28}
+  ],
+  "3-month": [
+    {"date": "2025-01-01", "percent": 0.0, "spx_percent": 0.0},
+    {"date": "2025-03-31", "percent": -2.6, "spx_percent": -4.28}
+  ],
+  "6-month": [
+    {"date": "2024-10-01", "percent": 0.0, "spx_percent": 0.0},
+    {"date": "2025-03-31", "percent": -1.2, "spx_percent": -3.4}
+  ],
+  "year-to-date": [
+    {"date": "2025-01-01", "percent": 0.0, "spx_percent": 0.0},
+    {"date": "2025-03-31", "percent": -2.6, "spx_percent": -4.28}
+  ],
+  "1-year": [
+    {"date": "2024-04-01", "percent": 0.0, "spx_percent": 0.0},
+    {"date": "2025-03-31", "percent": 14.36, "spx_percent": 12.11}
+  ],
+  "3-year": [
+    {"date": "2022-04-01", "percent": 0.0, "spx_percent": 0.0},
+    {"date": "2025-03-31", "percent": 52.73, "spx_percent": 41.32}
+  ],
+  "5-year": [
+    {"date": "2020-04-01", "percent": 0.0, "spx_percent": 0.0},
+    {"date": "2025-03-31", "percent": 217.69, "spx_percent": 168.44}
+  ],
+  "10-year": [
+    {"date": "2015-04-01", "percent": 0.0, "spx_percent": 0.0},
+    {"date": "2025-03-31", "percent": 389.81, "spx_percent": 281.05}
+  ],
+  "all": [
+    {"date": "2000-01-01", "percent": 0.0, "spx_percent": 0.0},
+    {"date": "2025-03-31", "percent": 1200.5, "spx_percent": 800.4}
+  ],
+  "42-year": [
+    {"date": "1983-04-01", "percent": 0.0, "spx_percent": 0.0}
+  ]
+}

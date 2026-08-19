@@ -1,0 +1,16 @@
+{
+  "page": 1,
+  "page_size": 100,
+  "has_more_pages": false,
+  "reporting_year": 2025,
+  "reporting_quarter": 1,
+  "stocks": [
+    {
+      "stock": {"id": "aapl", "ticker": "AAPL", "name": "Apple Inc.", "active": true},
+      "current": 1477,
+      "previous": 1048,
+      "change": 429,
+      "change_percent": 40.94
+    }
+  ]
+}

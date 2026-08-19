@@ -1,0 +1,31 @@
+{
+  "page": 1,
+  "page_size": 100,
+  "has_more_pages": false,
+  "managers": [
+    {
+      "id": "warren-buffett",
+      "name": "Warren Buffett",
+      "profile": "Warren Buffett is one of the world's most renowned investors and business magnates, often referred to as the \"Oracle of Omaha\"...",
+      "icon_url": "https://wsr.imgdeliver.net/icons/fund-managers/bqaxvkfo.jpg",
+      "popularity_rank": 1,
+      "fund": {"id": "berkshire-hathaway", "name": "Berkshire Hathaway", "icon_url": "https://wsr.imgdeliver.net/icons/funds/2jpgunqr.svg"}
+    },
+    {
+      "id": "bill-ackman",
+      "name": "Bill Ackman",
+      "profile": "Bill Ackman is the founder and CEO of Pershing Square Capital Management, a New York-based hedge fund...",
+      "icon_url": "https://wsr.imgdeliver.net/icons/fund-managers/sudsbqm3.jpg",
+      "popularity_rank": 2,
+      "fund": {"id": "pershing-square-capital-management", "name": "Pershing Square Capital Management", "icon_url": null}
+    },
+    {
+      "id": "philippe-laffont",
+      "name": "Philippe Laffont",
+      "profile": "Philippe Laffont is the founder of Coatue Management, a technology-focused hedge fund that has grown into one of the most prominent investors in the sector...",
+      "icon_url": "https://wsr.imgdeliver.net/icons/fund-managers/ffxsqkeb.jpg",
+      "popularity_rank": 3,
+      "fund": {"id": "coatue-management", "name": "Coatue Management", "icon_url": null}
+    }
+  ]
+}

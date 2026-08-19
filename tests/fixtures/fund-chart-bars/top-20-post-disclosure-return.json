@@ -1,0 +1,11 @@
+{
+  "1-month": [{"date": "2025-03-31", "percent": -0.7, "spx_percent": -4.28}],
+  "3-month": [{"date": "2025-03-31", "percent": -0.7, "spx_percent": -4.28}],
+  "6-month": [{"date": "2025-03-31", "percent": 2.7, "spx_percent": -3.4}],
+  "year-to-date": [{"date": "2025-03-31", "percent": -0.7, "spx_percent": -4.28}],
+  "1-year": [{"date": "2025-03-31", "percent": 16.9, "spx_percent": 12.11}],
+  "3-year": [{"date": "2025-03-31", "percent": 60.1, "spx_percent": 41.32}],
+  "5-year": [{"date": "2025-03-31", "percent": 245.8, "spx_percent": 168.44}],
+  "10-year": [{"date": "2025-03-31", "percent": 432.4, "spx_percent": 281.05}],
+  "all": [{"date": "2025-03-31", "percent": 1352.5, "spx_percent": 800.4}]
+}

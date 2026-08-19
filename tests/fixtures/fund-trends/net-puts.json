@@ -1,0 +1,15 @@
+{
+  "page": 1,
+  "page_size": 100,
+  "has_more_pages": false,
+  "reporting_year": 2025,
+  "reporting_quarter": 1,
+  "stocks": [
+    {
+      "stock": {"id": "aapl", "ticker": "AAPL", "name": "Apple Inc.", "active": true},
+      "calls": 120124623000,
+      "puts": 126155337000,
+      "net_puts": 6030714000
+    }
+  ]
+}

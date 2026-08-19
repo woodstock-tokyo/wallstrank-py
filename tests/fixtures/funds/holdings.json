@@ -1,0 +1,45 @@
+{
+  "page": 1,
+  "page_size": 100,
+  "has_more_pages": false,
+  "reporting_year": 2025,
+  "reporting_quarter": 1,
+  "holdings": [
+    {
+      "stock": {"id": "aapl", "ticker": "AAPL", "name": "Apple Inc.", "active": true},
+      "security_type": "equity",
+      "market_value": 66639000000,
+      "status": "maintained",
+      "portfolio_weight": 25.76,
+      "shares": 300000000,
+      "shares_last": 300000000,
+      "shares_change": 0,
+      "shares_change_percent": 0.0,
+      "capital_flow": 0
+    },
+    {
+      "stock": {"id": "axp", "ticker": "AXP", "name": "American Express Company", "active": true},
+      "security_type": "equity",
+      "market_value": 40803000000,
+      "status": "maintained",
+      "portfolio_weight": 15.77,
+      "shares": 151610700,
+      "shares_last": 151610700,
+      "shares_change": 0,
+      "shares_change_percent": 0.0,
+      "capital_flow": 0
+    },
+    {
+      "stock": {"id": "ko", "ticker": "KO", "name": "Coca-Cola Co", "active": true},
+      "security_type": "equity",
+      "market_value": 28650000000,
+      "status": "maintained",
+      "portfolio_weight": 11.07,
+      "shares": 400000000,
+      "shares_last": 400000000,
+      "shares_change": 0,
+      "shares_change_percent": 0.0,
+      "capital_flow": 0
+    }
+  ]
+}

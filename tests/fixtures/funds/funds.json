@@ -1,0 +1,55 @@
+{
+  "page": 1,
+  "page_size": 100,
+  "has_more_pages": false,
+  "funds": [
+    {
+      "id": "vanguard-group",
+      "name": "Vanguard Group",
+      "profile": "The Vanguard Group, founded in 1975 by John C. Bogle, is one of the world's largest asset managers and a pioneer of low-cost index investing.",
+      "icon_url": "https://wsr.imgdeliver.net/icons/funds/ccaohw6t.svg",
+      "city": "Malvern",
+      "state_or_country": "Pennsylvania",
+      "latest_reporting_year": 2025,
+      "latest_reporting_quarter": 1,
+      "latest_aum": 5531119721493,
+      "return_latest_quarter": -2.6,
+      "return_years_1": 14.36,
+      "return_years_3": 52.73,
+      "return_years_5": 217.69,
+      "return_years_10": 389.81
+    },
+    {
+      "id": "blackrock",
+      "name": "BlackRock",
+      "profile": "BlackRock, founded in 1988, is the world's largest asset manager, serving institutional and retail clients through iShares ETFs and active strategies.",
+      "icon_url": "https://wsr.imgdeliver.net/icons/funds/qcv69tuz.svg",
+      "city": "New York",
+      "state_or_country": "New York",
+      "latest_reporting_year": 2025,
+      "latest_reporting_quarter": 1,
+      "latest_aum": 4739418141980,
+      "return_latest_quarter": -2.66,
+      "return_years_1": 13.92,
+      "return_years_3": 52.81,
+      "return_years_5": 213.97,
+      "return_years_10": 365.6
+    },
+    {
+      "id": "berkshire-hathaway",
+      "name": "Berkshire Hathaway",
+      "profile": "Berkshire Hathaway is the Omaha-based holding company led by Warren Buffett, running a famously concentrated public-equity portfolio alongside its wholly owned businesses.",
+      "icon_url": "https://wsr.imgdeliver.net/icons/funds/2jpgunqr.svg",
+      "city": "Omaha",
+      "state_or_country": "Nebraska",
+      "latest_reporting_year": 2025,
+      "latest_reporting_quarter": 1,
+      "latest_aum": 258713622674,
+      "return_latest_quarter": 4.37,
+      "return_years_1": 12.41,
+      "return_years_3": 38.92,
+      "return_years_5": 102.63,
+      "return_years_10": 201.34
+    }
+  ]
+}

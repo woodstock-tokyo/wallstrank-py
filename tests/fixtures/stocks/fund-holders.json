@@ -1,0 +1,61 @@
+{
+  "page": 1,
+  "page_size": 100,
+  "has_more_pages": false,
+  "reporting_year": 2025,
+  "reporting_quarter": 1,
+  "holders": [
+    {
+      "fund": {"id": "vanguard-group", "name": "Vanguard Group", "icon_url": "https://wsr.imgdeliver.net/icons/funds/ccaohw6t.svg"},
+      "security_type": "equity",
+      "market_value": 290506933377,
+      "status": "increased",
+      "portfolio_weight": 5.2531,
+      "portfolio_rank": 2,
+      "shares": 1415932804,
+      "shares_last": 1400790809,
+      "shares_change": 15141995,
+      "shares_change_percent": 1.08,
+      "capital_flow": 3106683114
+    },
+    {
+      "fund": {"id": "blackrock", "name": "BlackRock", "icon_url": "https://wsr.imgdeliver.net/icons/funds/qcv69tuz.svg"},
+      "security_type": "equity",
+      "market_value": 235707295634,
+      "status": "increased",
+      "portfolio_weight": 4.9725,
+      "portfolio_rank": 3,
+      "shares": 1148838990,
+      "shares_last": 1140202870,
+      "shares_change": 8636120,
+      "shares_change_percent": 0.76,
+      "capital_flow": 1771872740
+    },
+    {
+      "fund": {"id": "berkshire-hathaway", "name": "Berkshire Hathaway", "icon_url": "https://wsr.imgdeliver.net/icons/funds/2jpgunqr.svg"},
+      "security_type": "equity",
+      "market_value": 66639000000,
+      "status": "maintained",
+      "portfolio_weight": 25.76,
+      "portfolio_rank": 1,
+      "shares": 300000000,
+      "shares_last": 300000000,
+      "shares_change": 0,
+      "shares_change_percent": 0.0,
+      "capital_flow": 0
+    },
+    {
+      "fund": {"id": "blackrock", "name": "BlackRock", "icon_url": "https://wsr.imgdeliver.net/icons/funds/qcv69tuz.svg"},
+      "security_type": "call",
+      "market_value": 3206000000,
+      "status": "increased",
+      "portfolio_weight": 1.24,
+      "portfolio_rank": 4,
+      "shares": 14500000,
+      "shares_last": 12100000,
+      "shares_change": 2400000,
+      "shares_change_percent": 19.83,
+      "capital_flow": 531000000
+    }
+  ]
+}

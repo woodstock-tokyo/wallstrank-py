@@ -1,0 +1,7 @@
+{
+  "sectors": [
+    {"id": "communication-services", "name": "Communication Services"},
+    {"id": "consumer-discretionary", "name": "Consumer Discretionary"},
+    {"id": "consumer-staples", "name": "Consumer Staples"}
+  ]
+}

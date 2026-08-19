@@ -1,0 +1,11 @@
+{
+  "reporting_year": 2025,
+  "reporting_quarter": 1,
+  "composition": [
+    {"sector": {"id": "technology", "name": "Technology"}, "percent": 42.35},
+    {"sector": {"id": "financials", "name": "Financials"}, "percent": 25.11},
+    {"sector": {"id": "consumer-staples", "name": "Consumer Staples"}, "percent": 15.42},
+    {"sector": {"id": "energy", "name": "Energy"}, "percent": 10.06},
+    {"sector": {"id": "communication-services", "name": "Communication Services"}, "percent": 7.06}
+  ]
+}
